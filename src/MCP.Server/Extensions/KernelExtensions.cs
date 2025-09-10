@@ -1,5 +1,6 @@
 using Microsoft.SemanticKernel;
 using ModelContextProtocol.Server;
+using MCP_Server.Auth;
 
 namespace MCP_Server;
 
