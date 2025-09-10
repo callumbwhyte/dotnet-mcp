@@ -27,6 +27,7 @@
     "onCreateCommand": "curl -sSL https://aspire.dev/install.sh | bash",
     "postStartCommand": "dotnet dev-certs https --trust",
     "features": {
+        "ghcr.io/azure/azure-dev/azd:latest": {},
         "ghcr.io/devcontainers/features/docker-in-docker:2": {}
     },
     "hostRequirements": {
