@@ -4,7 +4,20 @@
         "vscode": {
             "extensions": [
                 "ms-dotnettools.csdevkit"
-            ]
+            ],
+            "mcp": {
+                "servers": {
+                    "dotnet-mcp": {
+                        "type": "stdio",
+                        "command": "dotnet",
+                        "args": [
+                            "run",
+                            "--project",
+                            "/workspaces/dotnet-mcp/src/MCP.Server/MCP.Server.csproj"
+                        ]
+                    }
+                }
+            }
         }
     },
     "onCreateCommand": "curl -sSL https://aspire.dev/install.sh | bash",
