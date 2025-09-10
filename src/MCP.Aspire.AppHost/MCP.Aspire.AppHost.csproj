@@ -8,6 +8,9 @@
     <UserSecretsId>0f12e733-3616-4ef9-bccf-23fa236dd757</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
+    <ProjectReference Include="../MCP.Server/MCP.Server.csproj" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Aspire.Hosting.AppHost" Version="9.4.2" />
   </ItemGroup>
 </Project>

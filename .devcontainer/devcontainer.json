@@ -15,6 +15,10 @@
                             "--project",
                             "/workspaces/dotnet-mcp/src/MCP.Server/MCP.Server.csproj"
                         ]
+                    },
+                    "aspire-mcp": {
+                        "url": "http://localhost:3001/",
+                        "type": "http"
                     }
                 }
             }
