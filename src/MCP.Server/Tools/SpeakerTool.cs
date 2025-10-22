@@ -9,10 +9,10 @@ public static class SpeakerTool
     private static Dictionary<string, string> Speakers = new()
     {
         { "Callum Whyte", "Callum Whyte is a Microsoft MVP specialising in building robust scalable solutions on Azure and the .NET stack." },
-        { "Dylan Beattie", "Dylan Beattie is an independent consultant who has been building data-driven web applications since the 1990s." },
-        { "Jodie Burchell", "Dr. Jodie Burchell is the Developer Advocate in Data Science at JetBrains, and was previously a Lead Data Scientist at Verve Group Europe." },
-        { "Lars Klint", "Lars is a developer advocate, an author, trainer, Microsoft Azure MVP, community leader, aspiring YouTube host and part time classic car collector." },
-        { "Rendle", "Rendle is the founder of RendleLabs, which provides consulting services and workshops to .NET development teams across all industries." }
+        { "Adele Carpenter", "Adele is a Software Engineer and Consultant at Trifork Amsterdam where she is working on systems for the educational sector." },
+        { "Anders Norås", "Anders Norås is a software developer and architect with a passion for cloud-native applications and microservices architecture." },
+        { "David Whitney", "David is the Director of Architecture for NewDay, and the founder of Electric Head Software." },
+        { "Richard Campbell", "Richard Campbell is a software developer, author, and podcaster known for his expertise in .NET technologies and developer advocacy." }
     };
 
     private static Dictionary<string, IList<int>> SpeakerRatings = new();

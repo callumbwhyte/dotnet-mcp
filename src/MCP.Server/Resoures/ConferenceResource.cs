@@ -7,6 +7,6 @@ namespace MCP_Server.Resources;
 public static class ConferenceResource
 {
     [McpServerResource]
-    [Description("Returns the NDC Copenhagen endpoint URL.")]
-    public static string GetNdcCopenhagenEndpoint() => "https://ndccopenhagen.com/";
+    [Description("Returns the Hello Stavanger endpoint URL.")]
+    public static string GetHelloStavangerEndpoint() => "https://www.hellostavanger.no/talks/";
 }
